@@ -9,7 +9,7 @@ pipelineJob('basic') {
             }
           }
         }
-        scriptPath("basic/Jenkinsfile")
+        scriptPath('basic/Jenkinsfile')
     }
   }
 }
