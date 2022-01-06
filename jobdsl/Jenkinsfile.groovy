@@ -4,12 +4,12 @@ pipelineJob('JenkinsFile-Test') {
         scm {
           git {
             remote {
-              url ('https://github.com/devopsinpro/dsl-test.git')
-              credentials('jenkins-github-https')
+              url ('git@github.com:devopsinpro/dsl-test.git)
+              credentials('jenkins-github-ssh')
             }
           }
         }
-        scriptPath("auth/Jenkinsfile.groovy")
+        scriptPath("**/auth/Jenkinsfile.groovy")
     }
   }
 }
