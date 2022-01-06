@@ -4,8 +4,8 @@ pipelineJob('JenkinsFile-Test') {
         scm {
           git {
             remote {
-              url ('git@github.com:devopsinpro/dsl-test.git')
-              credentials('jenkins-github-ssh')
+              url ('https://github.com/devopsinpro/dsl-test.git')
+              credentials('jenkins-github-https')
             }
           }
         }
