@@ -1,4 +1,4 @@
-pipelineJob('auth') {
+pipelineJob('JenkinsFile-Test') {
   definition {
     cpsScm {
         scm {
