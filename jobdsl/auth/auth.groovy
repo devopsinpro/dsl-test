@@ -9,7 +9,7 @@ pipelineJob('auth') {
             }
           }
         }
-        scriptPath("auth/Jenkinsfile")
+        scriptPath("auth/Jenkinsfile.groovy")
     }
   }
 }
