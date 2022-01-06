@@ -4,7 +4,7 @@ pipelineJob('auth') {
         scm {
           git {
             remote {
-              url ('git@github.com:devopsinpro/dsl-test.git')
+              url ('https://github.com/devopsinpro/dsl-test.git')
               credentials('jenkins-github-ssh')
             }
           }
